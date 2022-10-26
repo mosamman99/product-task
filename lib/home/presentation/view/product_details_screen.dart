@@ -31,6 +31,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                     CustomCard(
                       radius: 24,width: 47,height: 47,
                       onTap: (){
+
                         Navigator.pop(context);
                       },
                       child: Icon(Icons.arrow_back_ios,color: AppUI.disableColor,size: 19,),
