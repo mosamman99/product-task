@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:products_task/core/app_util.dart';
 
 import '../../../core/ui/app_ui.dart';
@@ -78,7 +77,7 @@ class CheckoutScreen extends StatelessWidget {
                   child: Row(
                     children: [
                       Container(
-                        width: AppUtil.responsiveWidth(context)*0.5,
+                        width: AppUtil.responsiveWidth(context)*0.48,
                         height: 37,
                         padding: const EdgeInsets.all(2),
                         decoration: BoxDecoration(
@@ -143,7 +142,8 @@ class CheckoutScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(height: 21,),
+                const SizedBox(height: 236,),
+
               ],
             ),
           ),
